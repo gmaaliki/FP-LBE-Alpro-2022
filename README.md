@@ -1,10 +1,10 @@
 # Ghifari Maaliiki Syafa Syuhada / 5025211158
 ## Inheritance
 Hierarki `class` pada kode saya diantara lain :
-  - Telephone (superclass)
-    - MobilePhone
-      - Android
-      - Apple
+  - `Telephone` (superclass)
+    - `MobilePhone`
+      - `Android`
+      - `Apple`
 
 Berikut adalah bentuknya dalam kode :
 ```java
@@ -44,17 +44,17 @@ Implementasi encapsulation dengan menggunakan access modifier sepeti private dal
 ...
     private String contactNumber;
     String ID, ownerName;
-    ...
+...
 ```
 
 ```java
 ...
-private boolean isSilent = false;
+    private boolean isSilent = false;
 ...
 ```
 
 ## Polymorphism
-Saya menurunkan kelas Telephone menjadi beberapa subclass. Subclass tersebut menggunakan beberapa perintah override
+Saya menurunkan kelas `Telephone` menjadi beberapa subclass. Subclass tersebut menggunakan beberapa perintah override
 ```java
 ...
     @Override
